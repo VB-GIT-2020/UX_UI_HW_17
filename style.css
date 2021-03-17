@@ -51,7 +51,7 @@ ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-image: url(../images/HeroImg.png);
+    background-image: url(images/HeroImg.png);
     background-color:lightblue;
 
 }
@@ -96,32 +96,65 @@ footer ul {
     font-size: larger;
 
 }
+.about{
+    width:100%;
+}
 
 .about h2 {
+   
     text-align:center;
     padding:1em;
     font-size:40px;
 }
 .profile-pic {
     /* flex:auto; */
-    padding:0% 10% 20% 10%;
+    width:40%;
+    
 }
 
 .profile {
+    width:100%;
+    padding-right:10%;
+    padding-left:10%;
     display:flex;
     justify-content: space-evenly;
 }
-.profile p {
-    flex:1 1 50%;
-}
+
 .profile-text { 
+    line-height:1.2em;
+    font-size:20px;
 display:inline-block;
-width:500px;
-margin:0 auto;
+width:40%;
+
 }
-.writeup {
+
+.skills h2 {
+    
+    text-align:center;
+    padding:1em;
+    font-size:40px;
+}
+ .mySkill {
+    
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;  
+ }   
+
+.skillContainer {
+    
+    display: flex; 
+    height: 400px;
+    background-color: rgb(240, 240, 243);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* .writeup {
     display:flex;
-}
+} */
 
 /* .profile-text {
     width:500px;
@@ -138,7 +171,7 @@ margin:0 auto;
   .flexContainer {
     display: flex;
     height: 400px;
-    background-color: rgb(51, 22, 155);
+    background-color: rgb(240, 240, 243);
     margin: 10px;
     padding: 10px;
   }
